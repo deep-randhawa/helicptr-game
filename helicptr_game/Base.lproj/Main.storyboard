@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backGround.png" translatesAutoresizingMaskIntoConstraints="NO" id="mg8-8S-DN9">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                                <rect key="frame" x="0.0" y="-54" width="543" height="374"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heliUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mc6-xw-06i">
@@ -45,6 +45,70 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="iY2-fw-kNm">
+                                <rect key="frame" x="421" y="140" width="12" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="LXM-Ij-ycs">
+                                <rect key="frame" x="359" y="140" width="12" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="0DN-eV-Ktd">
+                                <rect key="frame" x="0.0" y="248" width="74" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ub9-Up-Oyg">
+                                <rect key="frame" x="69" y="274" width="74" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="mGK-cj-CnX">
+                                <rect key="frame" x="143" y="254" width="74" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="QXd-dQ-F2y">
+                                <rect key="frame" x="217" y="260" width="74" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="XN3-20-ilj">
+                                <rect key="frame" x="288" y="239" width="74" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="K1z-Xq-Ogx">
+                                <rect key="frame" x="69" y="-21" width="74" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="bXd-Sm-bhw">
+                                <rect key="frame" x="143" y="-15" width="74" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="894-lA-xKG">
+                                <rect key="frame" x="217" y="5" width="74" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="RTw-ha-Hr2">
+                                <rect key="frame" x="288" y="0.0" width="74" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="1n2-bQ-yyX">
+                                <rect key="frame" x="359" y="-3" width="74" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="2c7-TT-ZwR">
+                                <rect key="frame" x="406" y="25" width="74" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="mJo-8E-ZkC">
+                                <rect key="frame" x="0.0" y="0.0" width="74" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="34A-U7-ogK">
+                                <rect key="frame" x="359" y="283" width="74" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="c2v-JN-HJg">
+                                <rect key="frame" x="406" y="266" width="74" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -52,7 +116,23 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="Bottom1" destination="0DN-eV-Ktd" id="TN2-s7-GRD"/>
+                        <outlet property="Bottom2" destination="Ub9-Up-Oyg" id="CJr-JK-jhy"/>
+                        <outlet property="Bottom3" destination="mGK-cj-CnX" id="8Md-YK-udp"/>
+                        <outlet property="Bottom4" destination="QXd-dQ-F2y" id="Zd3-4X-zYn"/>
+                        <outlet property="Bottom5" destination="XN3-20-ilj" id="eLJ-1L-QzQ"/>
+                        <outlet property="Bottom6" destination="34A-U7-ogK" id="ybk-Sd-D5g"/>
+                        <outlet property="Bottom7" destination="c2v-JN-HJg" id="nd9-Tt-xvl"/>
                         <outlet property="Heli" destination="Mc6-xw-06i" id="ggO-Jc-ByN"/>
+                        <outlet property="Obsctacle1" destination="LXM-Ij-ycs" id="0P2-6y-4ol"/>
+                        <outlet property="Obsctacle2" destination="iY2-fw-kNm" id="oQW-2M-bcc"/>
+                        <outlet property="Top1" destination="mJo-8E-ZkC" id="FxS-1d-6gg"/>
+                        <outlet property="Top2" destination="K1z-Xq-Ogx" id="Ffg-7T-OXo"/>
+                        <outlet property="Top3" destination="bXd-Sm-bhw" id="Dci-bQ-UIk"/>
+                        <outlet property="Top4" destination="894-lA-xKG" id="vN6-jz-85f"/>
+                        <outlet property="Top5" destination="RTw-ha-Hr2" id="pf7-iC-rnE"/>
+                        <outlet property="Top6" destination="1n2-bQ-yyX" id="MDm-pP-3rt"/>
+                        <outlet property="Top7" destination="2c7-TT-ZwR" id="N4Y-PV-dwE"/>
                         <outlet property="intro1" destination="MIE-lS-lPy" id="p12-RK-xmJ"/>
                         <outlet property="intro2" destination="rZf-IG-Ocr" id="agO-oe-8Lh"/>
                         <outlet property="intro3" destination="55X-41-aCM" id="0gm-vm-Pqd"/>
@@ -60,9 +140,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="190" y="153"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Obstacle.png" width="50" height="100"/>
         <image name="backGround.png" width="479" height="320"/>
         <image name="heliUp.png" width="170" height="114"/>
     </resources>
