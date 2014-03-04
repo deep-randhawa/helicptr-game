@@ -94,7 +94,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="2c7-TT-ZwR">
-                                <rect key="frame" x="406" y="25" width="74" height="61"/>
+                                <rect key="frame" x="406" y="-3" width="74" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="mJo-8E-ZkC">

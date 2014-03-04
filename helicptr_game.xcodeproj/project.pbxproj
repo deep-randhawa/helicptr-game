@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E597BA5E18C59771007E60D7 /* DSObstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = E597BA5D18C59771007E60D7 /* DSObstacle.m */; };
 		E5C3CFA418BBC8E10063FADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C3CFA318BBC8E10063FADE /* Foundation.framework */; };
 		E5C3CFA618BBC8E10063FADE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C3CFA518BBC8E10063FADE /* CoreGraphics.framework */; };
 		E5C3CFA818BBC8E10063FADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C3CFA718BBC8E10063FADE /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E597BA5C18C59771007E60D7 /* DSObstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSObstacle.h; sourceTree = "<group>"; };
+		E597BA5D18C59771007E60D7 /* DSObstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSObstacle.m; sourceTree = "<group>"; };
 		E5C3CFA018BBC8E10063FADE /* helicptr_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helicptr_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C3CFA318BBC8E10063FADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E5C3CFA518BBC8E10063FADE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				E5C3CFB218BBC8E10063FADE /* AppDelegate.h */,
 				E5C3CFB318BBC8E10063FADE /* AppDelegate.m */,
 				E5C3CFB518BBC8E10063FADE /* Main.storyboard */,
+				E597BA5C18C59771007E60D7 /* DSObstacle.h */,
+				E597BA5D18C59771007E60D7 /* DSObstacle.m */,
 				E5C3CFB818BBC8E10063FADE /* ViewController.h */,
 				E5C3CFB918BBC8E10063FADE /* ViewController.m */,
 				E5C3CFBB18BBC8E10063FADE /* Images.xcassets */,
@@ -268,6 +273,7 @@
 				E5C3CFBA18BBC8E10063FADE /* ViewController.m in Sources */,
 				E5C3CFB418BBC8E10063FADE /* AppDelegate.m in Sources */,
 				E5C3CFB018BBC8E10063FADE /* main.m in Sources */,
+				E597BA5E18C59771007E60D7 /* DSObstacle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +482,7 @@
 				E5C3CFD418BBC8E10063FADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5C3CFD518BBC8E10063FADE /* Build configuration list for PBXNativeTarget "helicptr_gameTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				E5C3CFD718BBC8E10063FADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

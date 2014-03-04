@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "DSObstacle.h"
 
 @interface ViewController ()
+    //this is the area for private properties
+@property NSArray *topObstacles;
+@property NSArray *bottomObstacles;
 
 @end
 
@@ -20,6 +24,8 @@
     
     Obsctacle1.center = CGPointMake(Obsctacle1.center.x - 10, Obsctacle1.center.y);
     Obsctacle2.center = CGPointMake(Obsctacle2.center.x - 10, Obsctacle2.center.y);
+    
+    
     
     Bottom1.center = CGPointMake(Bottom1.center.x - 10, Bottom1.center.y);
     Bottom2.center = CGPointMake(Bottom2.center.x - 10, Bottom2.center.y);
@@ -130,6 +136,10 @@
 {
     Start = YES;
     [super viewDidLoad];
+    self.topObstacles = @[ [[DSObstacle alloc] initWithFrame:CGRectMake(0, 0, 50, 50)],
+                           [[DSObstacle alloc] initWithFrame:CGRectMake(50, 0, 50, 100)]
+                           ];
+
     Bottom1.hidden = YES;
     Bottom2.hidden = YES;
     Bottom3.hidden = YES;
